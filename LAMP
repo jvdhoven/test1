@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Dit is het install script voor LAMP"
+
+sudo apt-get update && upgrade
+
+sudo apt-get install apache2
